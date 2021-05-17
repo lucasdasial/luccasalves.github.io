@@ -76,7 +76,7 @@ nav .menu{
     text-shadow: 5px 5px 5px #181818;
 
     position: absolute;
-    top: 140px;
+    top: 30vh;
     left: 20%;
 }
 .btn{
@@ -111,8 +111,9 @@ nav .menu{
 /*-----------------about------------*/
 #about{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--color-neutral);
+    z-index: 10;
 
     display: flex;
     justify-content: center;
@@ -121,9 +122,10 @@ nav .menu{
 
 #about .container{
     width: 920px;
-    height: 100vh;
+    min-height: 100vh;
    
     display: flex;
+    
     justify-content: space-around;
     align-items: center;
     
@@ -232,3 +234,4 @@ justify-content: center;
     color: var(--color-neutral);
     font-size: 1rem;
 }
+

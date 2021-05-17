@@ -1,0 +1,91 @@
+@media(max-width:925px){
+    #project .wrapper{
+        width: 600px;
+        height:350px ;
+    }
+
+    #project .card{
+        width: 470px;
+        height: 260px;
+    }
+    .btn-line{
+        padding:5px 65px;
+    }
+    .btn-line button{
+        width:220px
+    }
+}
+@media(max-width:800px){
+    #about .container{
+        padding-top: 40px;
+        flex-direction:column ;
+    }
+
+    #about .perfil-photo{
+        height: 220px;
+    } 
+}
+@media (max-width:650px){
+    :root{
+        font-size: 14px;
+    }
+    nav .menu{
+        display: none;
+    }
+    #project .wrapper{
+        width: 500px;
+        height:350px ;
+    }
+
+    #project .card{
+        width: 470px;
+        height: 260px;
+    }
+    .btn-line{
+        padding:5px 15px;
+    }
+    .btn-line button{
+        width:220px
+    }
+}
+
+@media(max-width:580px){
+    #about .perfil-info{
+        width: 400px;
+    }
+    #project .wrapper{
+        width: 400px;
+        height:350px ;
+    }
+
+    #project .card{
+        width: 370px;
+        height: 240px;
+    }
+    .btn-line{
+        padding:5px 15px;
+    }
+    .btn-line button{
+        width:180px
+    }
+}
+
+@media(max-width:420px){
+    .txt-header{
+        left:30px
+    }
+    #about{
+        padding-bottom:40px ;
+    }
+    #about .perfil-info{
+        width: 300px;
+        height: auto;
+    }
+
+    .rede{
+        width:130px;
+        height: 30px;
+    }
+
+
+}
