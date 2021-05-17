@@ -175,13 +175,23 @@ justify-content: center;
     color: var(--color-neutral);
 }
 .project{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: chocolate;
+    width: 300px;
+    height: 200px;
+    background-color: var(--color-dark-two);
     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.project a{ 
+    font-weight: 700;
+    color: var(--color-primary)
+}
+
+.project a:hover{
+    color:var(--color-neutral)
 }
 
 

@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#header a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#header a:hover {
+  background: rgba(128, 128, 128, 0.6);
+  border: solid 3px #08bd96;
+}
+
+#galeria img {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+#galeria .card :hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: saturate(1.4);
+          filter: saturate(1.4);
+}
+
+#galeria #btn-close {
+  -webkit-transition: 800ms;
+  transition: 800ms;
+}
+
+#galeria #btn-close:hover {
+  background: white;
+  border: solid 3px #08bd96;
+}
+
+footer img {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+footer img:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+  padding: 3px;
+}
+
+[data-anime] {
+  opacity: 0;
+  -webkit-transition: 800ms;
+  transition: 800ms;
+}
+
+[data-anime="left"] {
+  -webkit-transform: translate3d(-50px, 0, 0);
+          transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  -webkit-transform: translate3d(50px, 0, 0);
+          transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+/*# sourceMappingURL=animation.css.map */

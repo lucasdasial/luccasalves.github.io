@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+#header a{
+    transition: 0.2s;
+}
+#header a:hover {
+    background: rgba(128, 128, 128, 0.6);
+    border: solid 3px rgb(8, 189, 150);
+}
+
+
+#galeria img{
+    transition: 500ms;
+}
+#galeria .card :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: saturate(1.4); 
+    
+}
+
+#galeria #btn-close{
+    transition: 800ms;
+}
+#galeria #btn-close:hover{
+    background: white;
+    border:solid 3px  rgb(8, 189, 150);
+
+}
+footer img{
+    transition: 300ms;
+}
+footer img:hover{
+    background: linear-gradient(rgba(0,0,0,0.5));
+    padding: 3px;
+}
+
+[data-anime]{
+    opacity: 0;
+    transition: 800ms;
+}
+
+[data-anime="left"]{
+    transform:translate3d(-50px, 0, 0 );
+}
+
+[data-anime="right"]{
+    transform:translate3d(50px, 0, 0 ) ;
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}

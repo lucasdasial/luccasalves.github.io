@@ -1,0 +1,41 @@
+*{outline: none; ; box-sizing: border-box;margin:0; padding: 0; text-decoration: none;}
+body{
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
+  font-family:monospace;
+  background-image: url(https://www.viajarevida.com.br/wp-content/uploads/2020/04/7-curiosidades-sobre-o-polo-norte-a-aurora-boreal-e-um-dos-fenonemos-naturais-mais-lindos-do-mundo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+ 
+}
+.container{
+  width: 310px;
+  height: 190px;
+  border: solid 3px white;;
+  border-radius: 25px 5px;
+  box-shadow: rgb(0, 255, 157) 5px 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start;
+  margin-bottom: 15px;
+}
+h1{
+  font-size: 25px;
+}
+#medidaPrimaria, #medidaSecundaria, #entrada, #resultado{
+  width: 130px;
+  height: 30px;
+  padding:5px ;
+  border: solid 1px grey;
+  border-radius: 5px 2px;
+}
+#s{visibility: hidden;}
+ a {color: rgb(94, 167, 235) ;}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de temperatura</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+      <h1 class="conv-title">Conversor de temperatura 🌡️</h1>
+
+      <input type="number" placeholder="--De--"id="entrada">
+      <span >=</span>
+      <input type="number" placeholder="--Para--" id="resultado">
+
+      <select id="medidaPrimaria">
+          <option value="celsius">º Celsius </option>
+          <option value="fahren">º Fahrenhit</option>
+          <option value="kelvin">º Kelvin</option>
+      </select>
+      <span id="s">o</span>
+      <select id="medidaSecundaria">
+          <option value="celsius">º Celsius</option>
+          <option value="fahren">º Fahrenhit</option>
+          <option value="kelvin">º Kelvin</option>
+      </select>
+    </div>
+    <p id="me">Lucas Alves <a href="https://twitter.com/oh_dasilva" target="black">Twitter</a>| <a href="https://www.linkedin.com/in/alveslucano/" target="blank">Linkedin</a>| <a href="https://github.com/luccasalves">Github</a></p>
+</body>
+<script src="./script.js"></script>
+</html>
