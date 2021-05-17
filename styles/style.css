@@ -55,7 +55,7 @@ nav a:hover{
     font-weight: 700;
 }
 nav .menu{
-    width: 410px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -76,7 +76,7 @@ nav .menu{
     text-shadow: 5px 5px 5px #181818;
 
     position: absolute;
-    top: 35%;
+    top: 240px;
     left: 20%;
 }
 .btn{
@@ -108,3 +108,80 @@ nav .menu{
 
 
 /*-----------------about------------*/
+#about{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-neutral);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 920px;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#about .perfil-photo{
+    width: 200px;
+    height: 400px;
+}
+#about img{
+    width: 200px;
+}
+
+#about .perfil-info{
+    width: 520px;
+    height: 400px;
+    
+    text-align: justify;
+}
+.rede{
+    width: 150px;
+    height:40px;
+    border: solid 2px var(--color-primary);
+}
+.rede a{
+    color: var(--color-neutral);
+    font-family: 'Poppins', sans-serif;
+}
+.rede i{
+    color:white
+}
+
+/*-----------project-----------*/
+
+
+#project{
+width: 100vw;
+height: 100vh;
+
+background: var(--color-dark-one);
+
+display: flex;
+justify-content: center;
+
+
+}
+#project .container{
+    flex-direction: column;
+}
+#project h2{
+    color: var(--color-neutral);
+}
+.project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: chocolate;
+    
+}
+
+
