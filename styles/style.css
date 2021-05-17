@@ -76,13 +76,14 @@ nav .menu{
     text-shadow: 5px 5px 5px #181818;
 
     position: absolute;
-    top: 240px;
+    top: 140px;
     left: 20%;
 }
 .btn{
     
     background-color: var(--color-primary);
     border-radius: 5px;
+    border:solid 2px var(--color-primary) ;
 
     
     font-size: 1.2rem;
@@ -118,7 +119,7 @@ nav .menu{
     align-items: center;
 }
 
-.container{
+#about .container{
     width: 920px;
     height: 100vh;
    
@@ -159,7 +160,7 @@ nav .menu{
 
 #project{
 width: 100vw;
-height: 100vh;
+min-height: 100vh;
 
 background: var(--color-dark-one);
 
@@ -169,29 +170,65 @@ justify-content: center;
 
 }
 #project .container{
-    flex-direction: column;
+    width: 920px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap;
 }
 #project h2{
     color: var(--color-neutral);
 }
-.project{
+.card-box{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+
+    color: var(--color-neutral);
+}
+#project .wrapper{
     width: 300px;
-    height: 200px;
+    height: 300px;
+    margin: 5px auto;
     background-color: var(--color-dark-two);
     
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
-.project a{ 
-    font-weight: 700;
-    color: var(--color-primary)
+.card{
+    width: 270px;
+    height: 200px;
+    margin: 5px;
+    overflow: hidden;
+
 }
 
-.project a:hover{
-    color:var(--color-neutral)
+.card img{
+    width:100%;
+    height:100%;
 }
+.btn-line{
+    width: 100%;
+    padding: 0 15px;
 
-
+    display: flex;
+    justify-content: space-between;
+}
+.btn-line button{
+    width: 130px;
+}
+.btn-line a {
+    color: var(--color-neutral);
+    font-size: 1rem;
+}
