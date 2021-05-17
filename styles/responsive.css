@@ -1,3 +1,15 @@
+.menu-mobile{
+    width: 60vw;
+    height: 100vw;
+    background-color: #181818;
+
+    position: fixed;
+    top:0;
+    right: 0;
+
+    display: none;
+
+}
 @media(max-width:925px){
     #project .wrapper{
         width: 600px;
@@ -29,8 +41,15 @@
     :root{
         font-size: 14px;
     }
+    nav{
+        justify-content: space-between;
+        padding: 0 30px;
+    }
     nav .menu{
         display: none;
+    }
+    nav .hamburger-btn{
+        display: initial;
     }
     #project .wrapper{
         width: 500px;
@@ -88,4 +107,25 @@
     }
 
 
+}
+
+@media(max-width:380px){
+    .txt-header{
+        font-size: 1.8rem;
+    }
+    project .wrapper{
+        width: 350px;
+        height:350px ;
+    }
+
+    #project .card{
+        width: 330px;
+        height: 240px;
+    }
+    .btn-line{
+        padding:5px 15px;
+    }
+    .btn-line button{
+        width:155px
+    }
 }

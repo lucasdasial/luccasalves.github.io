@@ -56,8 +56,19 @@ nav a:hover{
 }
 nav .menu{
     width: 300px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+}
+nav .hamburger-btn{
+    overflow-y: hidden;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+    display: none;
 }
 
 .bg-header{
@@ -233,5 +244,11 @@ justify-content: center;
 .btn-line a {
     color: var(--color-neutral);
     font-size: 1rem;
+}
+
+footer{
+    background-color: #181818;
+    width: 100vw;
+    height: 10vh;
 }
 
