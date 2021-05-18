@@ -1,131 +1,33 @@
-.menu-mobile{
-    width: 60vw;
-    height: 100vw;
-    background-color: #181818;
-
-    position: fixed;
-    top:0;
-    right: 0;
-
-    display: none;
-
-}
-@media(max-width:925px){
-    #project .wrapper{
-        width: 600px;
-        height:350px ;
-    }
-
-    #project .card{
-        width: 470px;
-        height: 260px;
-    }
-    .btn-line{
-        padding:5px 65px;
-    }
-    .btn-line button{
-        width:220px
-    }
-}
-@media(max-width:800px){
-    #about .container{
-        padding-top: 40px;
-        flex-direction:column ;
-    }
-
-    #about .perfil-photo{
-        height: 220px;
-    } 
-}
-@media (max-width:650px){
+@media(max-width:420px){
     :root{
         font-size: 14px;
     }
-    nav{
-        justify-content: space-between;
-        padding: 0 30px;
-    }
-    nav .menu{
-        display: none;
-    }
-    nav .hamburger-btn{
-        display: initial;
-    }
-    #project .wrapper{
-        width: 500px;
-        height:350px ;
+    .container-menu{
+        display: block;
     }
 
-    #project .card{
-        width: 470px;
-        height: 260px;
-    }
-    .btn-line{
-        padding:5px 15px;
-    }
-    .btn-line button{
-        width:220px
-    }
-}
-
-@media(max-width:580px){
-    #about .perfil-info{
-        width: 400px;
-    }
-    #project .wrapper{
-        width: 400px;
-        height:350px ;
-    }
-
-    #project .card{
-        width: 370px;
-        height: 240px;
-    }
-    .btn-line{
-        padding:5px 15px;
-    }
-    .btn-line button{
-        width:180px
-    }
-}
-
-@media(max-width:420px){
     .txt-header{
-        left:30px
+        font-size: 1.6rem;
+        left: 30px;
     }
-    #about{
-        padding-bottom:40px ;
+    #about .container{
+        flex-direction: column;
+        padding: 40px 0;
     }
-    #about .perfil-info{
-        width: 300px;
-        height: auto;
+    #about .perfil-photo{
+    width: 200px;
+    height: auto;
     }
 
+    #about img{
+    width: 200px;
+    }
+
+    #about .perfil-info{
+    width: 290px;
+    height: auto;
+    }
     .rede{
-        width:130px;
-        height: 30px;
+        width: 130px;
     }
-
-
-}
-
-@media(max-width:380px){
-    .txt-header{
-        font-size: 1.8rem;
-    }
-    project .wrapper{
-        width: 350px;
-        height:350px ;
-    }
-
-    #project .card{
-        width: 330px;
-        height: 240px;
-    }
-    .btn-line{
-        padding:5px 15px;
-    }
-    .btn-line button{
-        width:155px
-    }
-}
+}    
