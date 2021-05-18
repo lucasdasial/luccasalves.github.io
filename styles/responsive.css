@@ -14,6 +14,15 @@
 
     
 }
+@media(max-width:500px){
+    #about .perfil-info{
+        width: 310px;
+        height: auto;
+        }
+        .rede{
+            width: 130px;
+        }
+}
 @media(max-width:460px){
     :root{
         font-size: 14px;
