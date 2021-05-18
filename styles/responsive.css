@@ -1,15 +1,4 @@
-@media(max-width:420px){
-    :root{
-        font-size: 14px;
-    }
-    .container-menu{
-        display: block;
-    }
-
-    .txt-header{
-        font-size: 1.6rem;
-        left: 30px;
-    }
+@media(max-width:740px){
     #about .container{
         flex-direction: column;
         padding: 40px 0;
@@ -23,11 +12,27 @@
     width: 200px;
     }
 
+    
+}
+@media(max-width:460px){
+    :root{
+        font-size: 14px;
+    }
+    .container-menu{
+        display: block;
+        
+    }
+
+    .txt-header{
+        font-size: 1.6rem;
+        left: 30px;
+    }
+    
     #about .perfil-info{
-    width: 290px;
-    height: auto;
-    }
-    .rede{
-        width: 130px;
-    }
+        width: 290px;
+        height: auto;
+        }
+        .rede{
+            width: 130px;
+        }
 }    

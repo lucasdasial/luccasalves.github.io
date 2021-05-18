@@ -46,6 +46,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden ;
 }
 nav h1{
     color: var(--color-neutral);;
