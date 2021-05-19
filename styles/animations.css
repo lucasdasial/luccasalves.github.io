@@ -21,3 +21,15 @@
 nav, .txt-header{
     animation: down 2000ms; 
 }
+
+/* [data-anime]{
+    opacity: 1;
+    transition: 600ms;
+}
+[data-anime="upToDown"]{
+    transform: translate3d(0, -70px,0);
+}
+[data-anime="animate"]{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+} */
